@@ -1,7 +1,7 @@
 // Given a string s consisting of words and spaces, return the length of the last word in the string
 
 // const { log } = require("node:console");
-// const { console } = require("node:inspector");
+// const { console } = require("node :inspector");
 
 // let s = "   fly me   to   the moon  "
 // let lastword = s.trim().split(/\s+/)
