@@ -2,6 +2,7 @@
 
 // A segment is defined to be a contiguous sequence of non-space characters.
 
-s = "hello my name is rajdeep"
-let seg = s.split(" ")
-console.log(seg.length)
+function checkSegments(s){
+if(s==="")return 0
+return s.split(/\s+/).length
+}
